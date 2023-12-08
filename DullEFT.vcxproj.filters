@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f135653c-ab66-447b-a0f8-5cfe94d5cf69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CRT">
+      <UniqueIdentifier>{7e1ed09d-c61e-4835-bbee-a03395b5b903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{25609896-d90c-4597-881c-b5ac3919b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{c82bf991-15e5-439a-956f-09f911aaaaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{d7256a6e-b30e-48f4-940f-7070dcd24150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{0e446aba-58a1-46af-9e8b-bf69ecea80c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Market">
+      <UniqueIdentifier>{2166a392-f8a0-46ec-b42d-f4eda21d6c00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CRT.cpp">
+      <Filter>CRT</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="EFTBase.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="EFTCore.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHook.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EFTPriceMap.cpp">
+      <Filter>SDK\Market</Filter>
+    </ClCompile>
+    <ClCompile Include="Tyler\elements\button.cpp" />
+    <ClCompile Include="Tyler\elements\checkbox.cpp" />
+    <ClCompile Include="Tyler\elements\child.cpp" />
+    <ClCompile Include="Tyler\elements\combo.cpp" />
+    <ClCompile Include="Tyler\elements\sliders.cpp" />
+    <ClCompile Include="Tyler\elements\tab.cpp" />
+    <ClCompile Include="Tyler\libs\imgui_tricks.cpp" />
+    <ClCompile Include="Tyler\tyler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CRT.hpp">
+      <Filter>CRT</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyImporter.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="EFTMath.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImShader.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="EFTBase.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EFTCore.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.hpp">
+      <Filter>CRT</Filter>
+    </ClInclude>
+    <ClInclude Include="EFTPriceMap.hpp">
+      <Filter>SDK\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="Tyler\font\DrukWideBold.hpp" />
+    <ClInclude Include="Tyler\font\faprolight.hpp" />
+    <ClInclude Include="Tyler\font\hashes.h" />
+    <ClInclude Include="Tyler\font\Logotype.hpp" />
+    <ClInclude Include="Tyler\font\Poppins.hpp" />
+    <ClInclude Include="Tyler\font\sffont.hpp" />
+    <ClInclude Include="Tyler\libs\imgui_tricks.hpp" />
+    <ClInclude Include="Tyler\tyler.hpp" />
+  </ItemGroup>
+</Project>
